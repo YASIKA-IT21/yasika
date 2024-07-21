@@ -1,0 +1,79 @@
+/* Update.css */
+
+/* General form styling */
+form {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for each form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Radio button and checkbox group styling */
+.radio-group,
+.checkbox-group {
+  margin: 10px 0;
+}
+
+/* Radio button and checkbox styling */
+.radio-group input,
+.checkbox-group input {
+  margin-right: 8px;
+}
+
+/* Aligning the labels next to radio buttons and checkboxes */
+.radio-group label,
+.checkbox-group label {
+  margin-right: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Adjust spacing between checkboxes */
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,110 @@
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  background-color: #90ee90;
+  padding: 1rem;
+  color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  margin-right: 20px; /* Adjust margin if needed */
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header-left {
+  justify-content: flex-start; /* Align to the start */
+}
+
+.header-right {
+  justify-content: flex-end; /* Align to the end */
+}
+
+.header-left h3,
+.header-right h3 {
+  margin: 0 10px; /* Space between headings */
+}
+
+.header-left h3:first-child {
+  margin-left: 0; /* No margin on the left side of the first element */
+}
+
+.header-right h3:last-child {
+  margin-right: 40px; /* No margin on the right side of the last element */
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+
+  /* Adjust height to be the full viewport height minus header */
+}
+
+.admin-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.nav-link {
+  cursor: pointer; /* Changes the cursor to a hand symbol */
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Optional: Change text color on hover */
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+.create {
+  align-items: center;
+}
+.static-content {
+  text-align: center;
+  margin: 20px;
+}
+
+.static-content h2 {
+  font-size: 2em;
+  color: #2c3e50;
+}
+
+.static-content h1 {
+  font-size: 3em;
+  color: #e74c3c;
+}
+
+.static-content p {
+  font-size: 1.2em;
+  color: #34495e;
+}
+
+.static-content h3 {
+  font-size: 1.5em;
+  color: #8e44ad;
+}

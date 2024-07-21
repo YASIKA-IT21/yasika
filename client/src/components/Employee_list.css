@@ -1,0 +1,110 @@
+.employee-list-container {
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px; /* Adjust width as needed */
+}
+
+.sort-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sort-container label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.sort-container select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px; /* Adjust width as needed */
+}
+
+.employee-summary {
+  margin: 20px 0;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 12px;
+  border: 1px solid black;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.employee-table th {
+  background-color: #f4f4f4;
+  cursor: pointer;
+  border: 1px solid black;
+  position: sticky;
+  top: 0; /* Keeps header fixed when scrolling */
+  z-index: 1;
+}
+
+.employee-table tr:hover {
+  background-color: #f9f9f9;
+  border: 1px solid black;
+}
+
+.employee-table img.employee-image {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.edit-button,
+.delete-button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+.employee-summary {
+  margin: 40px 40px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-container,
+  .sort-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-input,
+  .sort-container select {
+    width: 100%;
+  }
+}
